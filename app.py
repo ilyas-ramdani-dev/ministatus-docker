@@ -16,4 +16,4 @@ def version():
 
 @app.get("/hello/<nom>")
 def hello(nom):
-    return jsonify(message=f"Bonjour {nom}")
+    return jsonify(message=f"Bonjour {nom}")  
